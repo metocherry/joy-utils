@@ -1,0 +1,22 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "command": {
+    "bootstrap": {
+      "hoist": true
+    },
+    "version": {
+      "conventionalCommits": true
+    },
+    "publish": {
+      "ignoreChanges": [
+        "*.md"
+      ],
+      "registry": "https://npm.pkg.github.com"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "joy-utils",
+  "version": "0.0.1",
+  "description": "web utils",
+  "main": "index.js",
+  "repository": "git@github.com:metocherry/joy-utils.git",
+  "author": "jinseok <metocherry@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "typescript": "^4.5.5"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

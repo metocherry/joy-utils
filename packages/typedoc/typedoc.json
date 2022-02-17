@@ -1,0 +1,14 @@
+{
+  "name": "Joy Utils",
+  "tsconfig": "../../tsconfig.json",
+  "entryPoints": [
+    "../../packages/check/src/index.ts"
+  ],
+  "out": "../../docs",
+  "includes": ["../../packages"],
+  "exclude": ["**/__tests__/**/*", "**/*.(types|test).ts(x?)"],
+  "excludeExternals": true,
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "entryPointStrategy": "Expand"
+}

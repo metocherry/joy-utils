@@ -1,0 +1,26 @@
+{
+  "name": "@metocherry/joy-check",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "jinseok <metocherry@gmail.com>",
+  "homepage": "https://github.com/metocherry/joy-utils#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metocherry/joy-utils.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/metocherry/joy-utils/issues"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@metocherry/joy-typedoc",
+  "version": "0.0.1",
+  "description": "typedoc",
+  "keywords": [
+    "typedoc"
+  ],
+  "author": "jinseok <metocherry@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "typedoc"
+  },
+  "devDependencies": {
+    "typedoc": "^0.22.11"
+  }
+}
